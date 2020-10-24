@@ -1,0 +1,69 @@
+.searchcard {
+  display: flex;
+  position: relative;
+  margin: 25px;
+  padding: 15px;
+  border-bottom: 1px solid lightgray;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.searchpage__fav {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.searchcard:hover {
+  opacity: 0.8;
+}
+
+.searchcard > img {
+  object-fit: fill;
+  width: 30%;
+
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.searchcard__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 18px;
+}
+
+.searchcard__infotop {
+  width: 45vw;
+}
+
+.searchcard__infotop > h3 {
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.searchcard__infotop > p {
+  /* margin-top: 10px; */
+  font-weight: 300;
+}
+
+.searchcard__infobot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searccard__rating > .MuiSvgIcon-root {
+  color: rgb(248, 66, 96) !important;
+}
+
+.searccard__rating {
+  display: flex;
+  align-items: center;
+}
+
+.searchcard__price {
+  /* position: absolute; */
+  bottom: 20px;
+  right: 35px;
+}
