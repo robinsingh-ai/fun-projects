@@ -1,0 +1,26 @@
+.category {
+  margin: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  box-shadow: 0px 6px 15px -9px rgba(0, 0, 0, 75);
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  transition: all 0.4s ease-in-out;
+}
+
+.category:hover {
+  transform: scale(1.1);
+}
+
+.category > img {
+  object-fit: contain;
+  width: 135px;
+}
+
+.category > h3 {
+  font-weight: 400;
+}
