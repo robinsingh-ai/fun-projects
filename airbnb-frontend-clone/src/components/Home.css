@@ -1,0 +1,9 @@
+.home__cards {
+  display: flex;
+  padding: 30px;
+}
+
+.homecards__link {
+  text-decoration: none;
+  color: black;
+}

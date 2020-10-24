@@ -1,0 +1,92 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.navbar__logo {
+  object-fit: contain;
+  height: 35px;
+  margin-left: 20px;
+  display: flex;
+  flex: 0.2;
+  /* margin-top: 20px; */
+}
+
+.navbar__middle {
+  display: flex;
+  align-items: center;
+  flex: 0.5;
+  max-width: fit-content;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+
+  height: 15px;
+  padding: 15px;
+}
+
+.navbar__middle > .MuiSvgIcon-root {
+  background-color: rgb(253, 72, 103);
+  border-radius: 999px;
+  padding: 5px;
+}
+
+.navbar__middle > input {
+  border: none;
+  padding: 5px;
+  /* width: 200px; */
+}
+
+.navbar__middle > input:focus {
+  outline-width: 0;
+}
+
+.neavbar__right {
+  display: flex;
+  flex: 0.3;
+  justify-content: space-between;
+  align-items: center;
+  width: 25vw;
+  margin-right: 50px;
+}
+
+.navbarright__middle {
+  display: flex;
+  align-items: center;
+}
+
+.navbarright__right {
+  display: flex;
+  align-items: center;
+}
+
+.navbarright__left {
+  cursor: pointer;
+  padding: 10px;
+}
+.navbarright__left:hover {
+  background-color: rgb(238, 235, 235);
+  border-radius: 999px;
+}
+
+.navbarright__middle {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.navbarright__middle:hover {
+  background-color: rgb(238, 235, 235);
+  border-radius: 999px;
+}
+
+.navbarright__right {
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 999px;
+}
