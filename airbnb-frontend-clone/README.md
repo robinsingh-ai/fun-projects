@@ -1,3 +1,19 @@
+# Airbnb Frontend Clone
+
+## Tech Stack
+
+- React js
+- Firebase for deploy
+- React Hooks
+- React Router
+- styled-components
+- material-ui icons
+
+
+## Preview
+- https://airbnb-web-clone.web.app/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
